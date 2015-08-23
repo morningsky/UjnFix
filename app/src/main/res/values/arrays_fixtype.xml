@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dormitory">
+        <item>灯</item>
+        <item>床</item>
+        <item>桌椅</item>
+        <item>热水器</item>
+        <item>门窗</item>
+        <item>水龙头</item>
+        <item>水管</item>
+        <item>晾衣竿</item>
+        <item>马桶</item>
+        <item>插座</item>
+        <item>风扇</item>
+        <item>暖气</item>
+        <item>消防栓</item>
+        <item>饮水机</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="library">
+        <item>灯</item>
+        <item>桌椅</item>
+        <item>门窗</item>
+        <item>空调</item>
+        <item>电梯</item>
+        <item>电脑</item>
+        <item>饮水机</item>
+        <item>卫生间</item>
+        <item>书架</item>
+        <item>插座</item>
+        <item>消防栓</item>
+        <item>暖气</item>
+        <item>借书机</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="teaching_building">
+        <item>灯</item>
+        <item>桌椅</item>
+        <item>门窗</item>
+        <item>风扇</item>
+        <item>空调</item>
+        <item>电梯</item>
+        <item>电脑</item>
+        <item>投影仪</item>
+        <item>饮水机</item>
+        <item>卫生间</item>
+        <item>插座</item>
+        <item>暖气</item>
+        <item>消防栓</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="apartment">
+        <item>灯</item>
+        <item>床</item>
+        <item>桌椅</item>
+        <item>热水器</item>
+        <item>门窗</item>
+        <item>水龙头</item>
+        <item>水管</item>
+        <item>马桶</item>
+        <item>插座</item>
+        <item>风扇</item>
+        <item>暖气</item>
+        <item>消防栓</item>
+        <item>其他</item>
+    </string-array>
+    
+    <string-array name="outdoor">
+        <item>篮球架</item>
+        <item>跑道</item>
+        <item>路灯</item>
+        <item>井盖</item>
+        <item>球网</item>
+        <item>取款机</item>
+        <item>宣传栏</item>
+        <item>路标</item>
+        <item>停车棚</item>
+        <item>健身设施</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="canteen">
+        <item>桌椅</item>
+        <item>音响</item>
+        <item>电脑</item>
+        <item>门窗</item>
+        <item>卫生间</item>
+        <item>空调</item>
+        <item>风扇</item>
+        <item>灯</item>
+        <item>其他</item>
+    </string-array>
+    
+</resources>

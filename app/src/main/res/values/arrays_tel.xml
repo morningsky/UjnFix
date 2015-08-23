@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>老赖</item>
+        <item>老赵</item>
+        <item>老史</item>
+    </string-array>
+
+    <string-array name="tel">
+        <item>17862912163</item>
+        <item>17862911815</item>
+        <item>17862903808</item>
+    </string-array>
+</resources>

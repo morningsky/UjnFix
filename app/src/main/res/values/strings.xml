@@ -1,0 +1,27 @@
+<resources>
+
+
+
+
+    <string name="app_name">UjnFix</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="fix_type">维修类别</string>
+    <string name="input_detil">请输入详细描述</string>
+    <string name="modify_information">修改资料</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+
+
+
+
+    <!--洪杰用的string-->
+    <string name="title_activity_fix_kejiedan">fix_kejiedanActivity</string>
+    <string name="title_activity_fixchat_fragment">FixchatFragment</string>
+    <string name="title_activity_fixer_chat_dialog">FixerChatDialog</string>
+    <string name="title_activity_fixerchat">聊天</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="firefly.ujnfix.user.view.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/abc_action_button_min_width_overflow_material"
+                    android:layout_height="@dimen/abc_action_button_min_width_overflow_material"
+                    android:layout_gravity="center"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:hint="请描述维修地点" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="@dimen/abc_action_button_min_width_overflow_material"
+                        android:layout_height="@dimen/abc_action_button_min_width_overflow_material"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scene" />
+
+                    <TextView
+                        android:id="@+id/tv_scene"
+                        android:layout_width="86dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="@dimen/abc_action_button_min_width_overflow_material"
+                        android:layout_height="@dimen/abc_action_button_min_width_overflow_material"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/tag" />
+
+                    <TextView
+                        android:id="@+id/tv_fixType"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="0dp"
+                        android:linksClickable="false"
+                        android:longClickable="false"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:clickable="false"
+                        android:text="@string/fix_type" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="详细描述:"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_detailsInputted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@null"
+                android:text="@string/input_detil" />
+            <!--android:background="@drawable/edittext_shape"-->
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/iv_fist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/iv_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/iv_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="维修状态" />
+
+                <ImageView
+                    android:id="@+id/iv_solvedState"
+                    android:src="@drawable/unprogressed"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <Button
+                    android:id="@+id/btn_rating"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="打个分呗" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_eventPicked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="维修员姓名：" />
+
+                    <TextView
+                        android:id="@+id/tv_fixerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="维修员电话：" />
+
+                    <TextView
+                        android:id="@+id/tv_fixerTel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn_complain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="我要投诉" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

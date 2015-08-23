@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:orientation="vertical"
+    android:background="@drawable/background_login"
+    tools:context="firefly.ujnfix.fixer.view.FixerChatDialog">
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_shouxinren"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="收信人: "
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/edt_shouxinren"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:background="@drawable/background_button"
+        android:textCursorDrawable="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/tv_shouxinren"
+        android:layout_toEndOf="@+id/tv_shouxinren" />
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:text="内容: "
+        android:textSize="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/edt_shouxinren"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top"
+        android:background="@drawable/background_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_content"
+        android:textCursorDrawable="@null"
+        android:layout_alignLeft="@+id/edt_shouxinren"
+        android:layout_alignStart="@+id/edt_shouxinren" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="right"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_sendmessage"
+        android:layout_gravity="center_vertical"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="发 送"
+        android:background="#FFACDAE5"/>
+    </LinearLayout>
+</LinearLayout>

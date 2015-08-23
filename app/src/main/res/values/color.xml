@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zh_blue">#0666c5</color>
+    <color name="tag_default">#ffffff</color>
+    <color name="tag_pressed">#FF1A60D2</color>
+    <color name="transparent">#00000000</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="color_theme">#489cfa</color>
+
+    <!--洪杰用的颜色-->
+    <color name="red">#f00</color>
+    <color name="blue">#0666c5</color>
+    <color name="lightblue">#ff94c5ad</color>
+    <color name="on">#0666c5</color>
+    <color name="off">#2e3d3b37</color>
+
+
+
+</resources>
